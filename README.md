@@ -1,2 +1,2 @@
-# LAU - CPP
-A repository for exploration and mastery C++.
+# LAU - LLVM
+A repository for exploration and mastery LLVM.

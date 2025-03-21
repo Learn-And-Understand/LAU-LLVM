@@ -1,54 +1,39 @@
-**1. Dasar-dasar C++**
+**1. Dasar-dasar Kompilasi:**
 
-* **Sintaks Dasar**:
-    * Pelajari cara menulis kode C++ yang benar. Ini termasuk variabel, tipe data (int, float, char, dll.), operator, dan ekspresi.
-    * Pahami cara kerja *input* dan *output* dasar menggunakan `cin` dan `cout`.
-* **Struktur Kontrol**:
-    * Kuasai penggunaan percabangan (if, else, switch) dan perulangan (for, while, do-while).
-    * Pelajari cara membuat fungsi untuk memecah kode menjadi bagian-bagian yang lebih kecil dan mudah dikelola.
-* **Array dan Pointer**:
-    * Pahami cara menggunakan array untuk menyimpan kumpulan data.
-    * Pelajari konsep pointer, yang memungkinkan kamu mengakses dan memanipulasi memori secara langsung.
+* **Teori Kompilasi:**
+    * Pelajari konsep-konsep dasar dalam kompilasi, seperti parsing, analisis semantik, optimisasi, dan pembuatan kode.
+    * Pahami berbagai tahapan dalam proses kompilasi dan peran masing-masing tahapan.
+* **Representasi Menengah (IR):**
+    * Kenali berbagai jenis IR yang umum digunakan dalam kompiler.
+    * Pahami mengapa IR penting dalam proses optimisasi dan pembuatan kode.
 
-**2. Pemrograman Berorientasi Objek (OOP)**
+**2. Pengenalan LLVM:**
 
-* **Kelas dan Objek**:
-    * Pelajari cara membuat kelas untuk mendefinisikan objek dengan atribut dan metode.
-    * Pahami konsep enkapsulasi, pewarisan, dan polimorfisme, yang merupakan pilar-pilar OOP.
-* **Template dan Standard Template Library (STL)**:
-    * Pelajari cara menggunakan template untuk membuat fungsi dan kelas generik.
-    * Kuasai STL, yang menyediakan berbagai macam struktur data dan algoritma yang siap pakai.
+* **Arsitektur LLVM:**
+    * Pelajari arsitektur umum LLVM, termasuk front-end, middle-end, dan back-end.
+    * Pahami peran masing-masing komponen dalam proses kompilasi.
+* **LLVM IR:**
+    * Pelajari sintaks dan struktur LLVM IR.
+    * Pahami bagaimana kode sumber direpresentasikan dalam LLVM IR.
+    * Tutorial "Kaleidoscope" LLVM adalah cara yang sangat bagus untuk memulai.
 
-**3. Konsep Lanjutan**
+**3. Membangun dan Menggunakan LLVM:**
 
-* **Manajemen Memori**:
-    * Pelajari cara mengelola memori secara manual menggunakan `new` dan `delete`.
-    * Pahami konsep *smart pointers* untuk menghindari *memory leak*.
-* **Multithreading**:
-    * Pelajari cara membuat program yang dapat menjalankan beberapa *thread* secara bersamaan.
-    * Pahami konsep sinkronisasi dan komunikasi antar-*thread*.
-* **C++ Modern (C++11 dan seterusnya)**:
-    * Pelajari fitur-fitur baru yang diperkenalkan di C++11, C++14, C++17, dan versi-versi selanjutnya, seperti *lambda expressions*, *auto keyword*, dan *range-based for loops*.
+* **Membangun LLVM dari Sumber:**
+    * Pelajari cara mengunduh dan membangun LLVM dari kode sumber.
+    * Pahami sistem pembangunan LLVM (CMake).
+* **Alat Bantu LLVM:**
+    * Kenali berbagai alat bantu yang disediakan oleh LLVM, seperti `llvm-as`, `llvm-dis`, dan `lli`.
+    * Pelajari cara menggunakan alat-alat ini untuk bekerja dengan LLVM IR.
 
-**4. Proyek dan Praktik**
+**4. Mendalami LLVM:**
 
-* Buat proyek-proyek kecil untuk mengasah kemampuanmu. Contohnya, buat game sederhana, aplikasi *command-line*, atau program untuk memanipulasi data.
-* Ikut serta dalam proyek *open-source* untuk belajar dari *programmer* lain dan berkontribusi pada komunitas.
-
-**Sumber Belajar**
-
-* **Buku**:
-    * "C++ Primer" oleh Stanley B. Lippman, Josée Lajoie, dan Barbara E. Moo
-    * "Effective Modern C++" oleh Scott Meyers
-* **Situs Web**:
-    * CPlusPlus.com
-    * LearnCpp.com
-* **Kursus Online**:
-    * Coursera
-    * Udemy
-
-**Tips Tambahan**
-
-* Jangan takut untuk bereksperimen dan mencoba hal-hal baru.
-* Bergabunglah dengan komunitas C++ online untuk berdiskusi dan belajar dari *programmer* lain.
-* Teruslah berlatih dan jangan mudah menyerah.
+* **Optimisasi LLVM:**
+    * Pelajari berbagai teknik optimisasi yang diimplementasikan dalam LLVM.
+    * Pahami bagaimana LLVM mengoptimalkan kode untuk kinerja yang lebih baik.
+* **Back-end LLVM:**
+    * Pelajari cara LLVM menghasilkan kode mesin untuk berbagai arsitektur target.
+    * Pahami peran pemilihan instruksi dan alokasi register.
+* **Pengembangan LLVM:**
+    * Jika kamu tertarik, pelajari cara berkontribusi pada proyek LLVM.
+    * Eksplorasi cara menambahkan fitur atau optimisasi baru ke LLVM.
